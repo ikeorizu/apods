@@ -1,0 +1,25 @@
+.apod-home {
+	padding: 2rem;
+}
+
+.planet-img img {
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+
+.planet-img img:hover {
+	transform: scale(1.05); /* Scales the image 5% larger on hover */
+}
+
+.vote-inc-num {
+	background: #000;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+	.apod-home {
+		padding: 1rem;
+	}
+}
